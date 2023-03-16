@@ -1,0 +1,70 @@
+body{
+    font-size: 16px;
+    font-family: Arial;
+    background-image: linear-gradient(to left, #b3cce2, #D9CCC1);
+
+}
+
+h1{
+    font-size: 3rem;
+    letter-spacing: .5rem;
+    text-align: center;
+    background: #005eb0;
+    color: #D9CCC1;
+
+}
+
+h2{
+    font-size: 1.5rem;
+    background: #005eb0;
+    color: #D9CCC1;
+}
+
+p{
+    font-size: 1.0rem;
+    color: #024059;
+}
+
+@font-face {
+    font-family: 'Tilt-Neon';
+    src: url(TiltNeon.ttf);
+}
+
+blockquote.cite{
+    line-height: 1.5;
+    text-align: justify;
+    font-family: Tilt-Neon;
+}
+
+p.autor{
+    text-align: right;
+    color: darkslategray;
+    font-style: italic;
+}
+
+p.date{
+    text-align: left;
+    color: darkslategray;
+    font-style: italic;
+    font-size: .8rem;
+    
+}
+
+.strikethrough {
+    position: relative;
+}
+.strikethrough:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    right: 0;
+    border-top: 1px solid;
+    border-color: inherit;
+    
+    -webkit-transform:rotate(-5deg);
+    -moz-transform:rotate(-5deg);
+    -ms-transform:rotate(-5deg);
+    -o-transform:rotate(-5deg);
+    transform:rotate(-5deg);
+}
