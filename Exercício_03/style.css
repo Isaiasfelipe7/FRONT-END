@@ -25,15 +25,12 @@ p{
     color: #024059;
 }
 
-@font-face {
-    font-family: 'Tilt-Neon';
-    src: url(TiltNeon.ttf);
-}
+@import url(https://fonts.google.com/specimen/Tilt+Neon?query=tilt+neon);
 
 blockquote.cite{
     line-height: 1.5;
     text-align: justify;
-    font-family: Tilt-Neon;
+    font-family: 'Tilt-Neon';
 }
 
 p.autor{
