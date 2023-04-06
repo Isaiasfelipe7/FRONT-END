@@ -1,0 +1,33 @@
+body{
+    background-color: bisque;
+}
+ol{
+    list-style-type: upper-roman;
+}
+.entrada_proibida{
+    list-style-image: url(imagens/entrada-proibida.png);
+}
+.limite_velocidade{
+    list-style-image: url(imagens/limite-de-velocidade.png);
+}
+.nao_vire{
+    list-style-image: url(imagens/nao-vire-a-esquerda.png);
+}
+.pedestre{
+    list-style-image: url(imagens/pedestre.png);
+}
+.stop{
+    list-style-image: url(imagens/sinal-de-parada.png);
+}
+.secao1{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    width: 50%;
+}
+.secao2{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    width: 50%;
+}
