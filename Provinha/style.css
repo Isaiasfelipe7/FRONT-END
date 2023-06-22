@@ -1,0 +1,66 @@
+body{
+    background-color: gray;
+    font-family: Arial;
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    background-image: url(imagens/fundo-f1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center right;
+}
+
+header{
+    background-image: url(imagens/titulo-f1.jpg);
+    background-repeat: no-repeat;
+    height: 114px;
+}
+
+h4{
+    border-bottom: 1px solid gray;
+    border-left: 5px solid gray;
+    padding: 10px;
+    background-image: url(imagens/bandeira1.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+ul{
+    list-style: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: darkgoldenrod;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    line-height: 1.5;
+    text-indent: 10%;
+    width: 100%;
+}
+
+table{
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+main{
+    padding: 20px;
+}
+
+td, th{
+    padding: 10px;
+    border-bottom: 1px dashed gray;
+}
+
+footer{
+    margin-top: 30px;
+}
