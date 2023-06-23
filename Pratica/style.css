@@ -1,0 +1,23 @@
+.a {list-style-type: circle;}
+.b {list-style-type: square;}
+.c {list-style-type: none;}
+.d {list-style-type: upper-roman;}
+.e {list-style-type: lower-alpha;}
+.f {list-style-type: lower-greek;}
+
+.seta1 {list-style-image: url('imagens/seta1.png')}
+.seta2 {list-style-image: url('imagens/seta2.png')}
+.gradiente {list-style-image: linear-gradient(yellow, blue)}
+
+a:hover { color: lightblue;
+    text-decoration: underline;
+}
+a:link {color:blue;
+    text-decoration: none;
+}
+a:visited{ color: blue;
+    text-decoration: none;
+}
+a:active {color: lightblue;
+    text-decoration: underline;
+}
