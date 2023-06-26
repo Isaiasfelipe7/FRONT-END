@@ -1,12 +1,12 @@
 body {
     margin: 0;
 }
-  
+
 .container {
     margin: 0;
     padding: 0;
 }
-  
+
 header, footer, .left-column, .right-column {
     padding: 20px;
     display: flex;
@@ -15,18 +15,18 @@ header, footer, .left-column, .right-column {
     background-color: black;
     color: white;
 }
-  
+
 main {
     display: flex;
 }
-  
+
 .timeline {
     background-color: #ffffff;
     margin-right: 20px;
     padding: 20px;
     width: 70%;
 }
-  
+
 .nav {
       background-color: #d3d3d3;
       padding: 20px;
@@ -36,13 +36,13 @@ main {
 .nav ul li a {
     color: black;
 }
-  
+
 article {
     background-color: #f2f2f2;
     margin-bottom: 20px;
     padding: 20px;
 }
-  
+
 h2 {
     margin: 10px 0;
     background-color: black;
@@ -51,28 +51,20 @@ h2 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-  
-.author {
-    text-align: right; 
-}
-  
-.date {
-    text-align: right; 
-}
-  
+
 footer, header {
     text-align: center;
-}
-
-header, .left-column, .right-column, footer {
-    margin: 20px;
-}
-  
-article {
-    margin-bottom: 20px;
 }
 
 a {
     text-decoration: none;
     color: white;
+}
+
+.author {
+    text-align: right; 
+}
+
+.date {
+    text-align: right; 
 }
