@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer, .left-column, .right-column {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+main {
+    display: flex;
+}
+
+.timeline {
+    background-color: #ffffff;
+    margin-right: 20px;
+    padding: 20px;
+    width: 70%;
+}
+
+.nav {
+      background-color: #d3d3d3;
+      padding: 20px;
+      width: 450px;
+}
+
+.nav ul li a {
+    color: black;
+}
+
+article {
+    background-color: #f2f2f2;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+h2 {
+    margin: 10px 0;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer, header {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.author {
+    text-align: right; 
+}
+
+.date {
+    text-align: right; 
+}
