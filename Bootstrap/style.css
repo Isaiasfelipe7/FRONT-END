@@ -1,0 +1,67 @@
+body {
+    background-color: #ccc;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    margin: 0 auto;
+    background-color: #fff;
+    background-image: url(F1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h4.topic {
+    border-left: 5px solid #000;
+    border-bottom: 1px solid #000;
+    padding-left: 10px;
+    margin-top: 20px;
+  }
+  
+  h4.topic::after {
+    content: "";
+    background-image: url(bandeira.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #886600;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  td {
+    padding: 5px;
+    border-bottom: 1px dotted #888;
+  }
+  
+  footer {
+    padding: 20px;
+  }
+  
+  article {
+    margin-bottom: 20px;
+  }
+  
